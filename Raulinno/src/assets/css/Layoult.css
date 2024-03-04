@@ -1,0 +1,19 @@
+.layoult {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.backgroundLay{
+    width: 100%;
+    background-color: #B59272;
+    height: 100%;
+    
+}
+.backgroundLay2{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+}

@@ -3,69 +3,76 @@
     src: url('../fonts/Roboto/Roboto-Medium.ttf');
 }
 
-.icon{
+.icon {
     width: 30px;
 }
-.container{
-    width: 80%;
+
+.container {
     height: 500px;
+    width: 100%;
     display: flex;
     align-items: center;
-    background-color: 	rgb(226, 223, 210);
-    
-   
+    background-color:rgb(245, 245, 245);
+    margin: 10px;
+  
     font-family: Montserat;
+    padding-left: 20px 0px 20px 0px;
+    
 }
 
-.container-texto{
+.container-texto {
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: 40px;
     height: 350px;
     width: 600px;
-    margin-right: 0px;
+    margin-right: 0px;  
     background-color: rgb(245, 245, 245);
 
+
 }
-.h1{
+
+.h1 {
     padding-bottom: 20px;
     font-style: italic;
     color: rgb(211, 152, 24);
-    
+
 
 }
 
-.p1{
+.p1 {
     font-family: Montserat;
     padding: 0px 30px 30px 30px;
     font-size: 20px;
-    
+
 }
-.p2{
+
+.p2 {
     margin-bottom: 10px;
     font-style: italic;
     font-size: small;
 }
 
-.p3{
+.p3 {
     align-self: self-end;
     margin-top: 10px;
     font-weight: 900;
 }
 
-.Grpb{
+.Grpb {
     width: 600px;
     height: 350px;
-    
+
 }
-.div{
+
+.div {
     display: flex;
     margin: auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.container-foto{
+.container-foto {
     background-color: rgb(245, 245, 245);
     padding: 38px;
     margin: auto;

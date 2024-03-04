@@ -3,13 +3,17 @@ import React from 'react'
 import "../assets/css/Body.css"
 //components
 import QuemSomos from './QuemSomos'
-import Portifolio from './Portifolio'
+
+import Carrossel from './Carrossel'
 
 const Body = () => {
   return (
     <div className='body'>
-        <Portifolio />
-        {/*<QuemSomos/>*/}
+      <div className='bodyContainerMain'>
+      <Carrossel />
+      
+      <QuemSomos/>
+      </div>
     </div>
   )
 }

@@ -4,7 +4,9 @@ import './App.css'
 //components
 import Header from './components/Header';
 import Body from './components/Body';
+import Layoult from './components/Layoult';
 //assets
+
 
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
 
   return (
     <div>
+
      <Header/>
+     <Layoult/>
      <Body/>
     </div>
   )
