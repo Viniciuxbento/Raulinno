@@ -18,20 +18,37 @@
 
 
 }
-
+.words{
+    display: flex;
+}
 .logo-name {
     display: flex;
     width: 100%;
     padding-bottom: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
 
 
+}
+.material-symbols-outlined{
+    color:#B59272 ;
+    margin: 5px;
 }
 
 .h1-header {
     font-family: Montserat;
-    font-size: 80px;
+    font-size: 40px;
     color: white;
+}
+.h1HeaderCont{
+    color: white;
+    font-family: Montserat;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.contatoIcons{
+    display: flex;
+    flex-direction: row;
 }
 
 .p-header {
@@ -42,7 +59,8 @@
 }
 
 .logo-width {
-    width: 200px;
+    width: 100px;
+    height: auto;
 }
 a{
 text-decoration: none;

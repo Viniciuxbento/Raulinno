@@ -1,19 +1,77 @@
+@font-face {
+    font-family: 'Merri';
+    src: url('../fonts/Merri/Merriweather-Italic.ttf');
+}
+
+h1{
+    font-family: Merri;
+}
+.WppIcon{
+    width: 30px;
+    height: auto;
+    
+}
 .layoult {
 
     width: 100%;
-    height: 100vh;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.Zebra{
+    width: 100%;
     display: flex;
 
 }
 
 .backgroundLay{
     width: 100%;
+    display: flex;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: flex-start;
     background-color: #B59272;
     height: 100%;
     
 }
+.h1-background1{
+    color:#F5F5F5 ;
+    font-size: 50px;
+}
 .backgroundLay2{
+    display: flex;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: flex-end;
     background-color: #F5F5F5;
     width: 100%;
     height: 100%;
 }
+.h1-background2{
+    color: #B59272;
+    font-size: 50px;
+
+}
+.botao{
+    align-self: center;
+    padding-top: 50px;
+}
+.linkLayoult{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+button{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.719);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+

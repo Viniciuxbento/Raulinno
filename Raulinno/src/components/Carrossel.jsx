@@ -10,12 +10,13 @@ import '../assets/css/Carrossel.css'
 // import required modules
 import { Navigation } from 'swiper/modules';
 import Icon from "../assets/icons/aperto-de-mao.png"
-import Grpb from "../assets/images/Garopaba-background.jpg"
+import image1 from '../assets/images/Imagem-casa.jpg'
 const Carrossel= ()=> {
+  
   return (
     <div className='bodyCarrossel'>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide>{Grpb}</SwiperSlide>
+        <SwiperSlide><img src={image1} alt="" srcset="" /></SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
